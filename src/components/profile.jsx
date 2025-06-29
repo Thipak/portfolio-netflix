@@ -13,21 +13,39 @@ export function Profile({ page }) {
                 items={[
                     {
                         image: "https://via.placeholder.com/150",
-                        title: "Sample Item",
-                        redirectURL: "/item/sample",
+                        title: "Skills",
+                        redirectURL: "/skills",
+                        type: ""
+                    },
+{
+                        image: "https://via.placeholder.com/150",
+                        title: "Experience",
+                        redirectURL: "/work-experience",
+                        type: ""
+                    },
+                  {
+                        image: "https://via.placeholder.com/150",
+                        title: "Recommendations",
+                        redirectURL: "/recommendations",
                         type: "Developer"
                     },
                     {
                         image: "https://via.placeholder.com/150",
-                        title: "Another Item",
-                        redirectURL: "/item/another",
-                        type: "Adventurer"
+                        title: "Projects",
+                        redirectURL: "/projects",
+                        type: ""
+                    },
+{
+                        image: "https://via.placeholder.com/150",
+                        title: "Certificates",
+                        redirectURL: "/certificates",
+                        type: ""
                     },
                     {
                         image: "https://via.placeholder.com/150",
-                        title: "Third Item",
-                        redirectURL: "/item/third",
-                        type: "Recruiter"
+                        title: "Contact Me",
+                        redirectURL: "/contact",
+                        type: ""
                     }
                 ]}
             />
@@ -38,21 +56,21 @@ export function Profile({ page }) {
                 items={[
                     {
                         image: "https://via.placeholder.com/150",
-                        title: "Sample Item",
-                        redirectURL: "/item/sample",
-                        type: "Developer"
+                        title: "Music",
+                        redirectURL: "/music",
+                        type: "stalker"
                     },
                     {
                         image: "https://via.placeholder.com/150",
-                        title: "Another Item",
-                        redirectURL: "/item/another",
-                        type: "Adventurer"
+                        title: "Blogs",
+                        redirectURL: "/blogs",
+                        type: ""
                     },
                     {
                         image: "https://via.placeholder.com/150",
-                        title: "Third Item",
-                        redirectURL: "/item/third",
-                        type: "Recruiter"
+                        title: "Contact Me",
+                        redirectURL: "/contact",
+                        type: ""
                     }
                 ]}
             />

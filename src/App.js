@@ -17,6 +17,7 @@ import { Home } from './views/Home';
 import './App.css';
 
 function App() {
+  
   return (
     <BrowserRouter>
       <Routes>
@@ -36,7 +37,8 @@ function App() {
         <Route path="/blogs" element={<Blogs />} />
         <Route path="/music" element={<Music />} />
         <Route path="/recommendations" element={<Recommendations />} />
-        <Route path="/certificates" element={<Certificates />} />
+        <Route path="/certificates" element={<Certificates />} />\
+        <Route path="*" element={<div>404 Not Found</div>} />
       </Routes>
     </BrowserRouter>
   );
