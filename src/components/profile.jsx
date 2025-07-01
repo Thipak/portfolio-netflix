@@ -1,14 +1,33 @@
 import { ItemList } from "./itemlist";
+import { toFill } from "../toFill";
 
 export function Profile({ page }) {
+
+    const data = toFill.data;
     return (
         <div className="profile">
             <h1>{page} Page</h1>
-            <p>This is the {page} profile page.</p>
-            <p>Here you can find information about the {page}.</p>
-            <p>Feel free to explore the {page} profile and connect with the user.</p>
+            <p>{data.profile.descriptionLarge}</p>
+            <button onClick={() => window.open(data.profile.resumeURL, "_blank")} className="btn  resume-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M16 21v-2a4 4 0 0 0-8 0v2" />
+                    <circle cx="12" cy="7" r="4" />
+                    <line x1="8" y1="11" x2="16" y2="11" />
+                    <line x1="8" y1="15" x2="16" y2="15" />
+                </svg>
+                <p>Resume</p>
+            </button>
+            <button onClick={() => window.open(data.profile.contact.socials.linkedin.url, "_blank")} className="btn linkedin-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                    <path d="M16 21v-2a4 4 0 0 0-8 0v2" />
+                    <circle cx="12" cy="7" r="4" />
+                    <line x1="8" y1="11" x2="16" y2="11" />
+                    <line x1="8" y1="15" x2="16" y2="15" />
+                </svg>
+                <p>LinkedIn</p>
+            </button>
             <ItemList
-                heading="Featured Items"
+                heading="Today's Top Picks for recruiter"
                 type={page}
                 items={[
                     {
@@ -17,13 +36,13 @@ export function Profile({ page }) {
                         redirectURL: "/skills",
                         type: ""
                     },
-{
+                    {
                         image: "https://via.placeholder.com/150",
                         title: "Experience",
                         redirectURL: "/work-experience",
                         type: ""
                     },
-                  {
+                   {
                         image: "https://via.placeholder.com/150",
                         title: "Recommendations",
                         redirectURL: "/recommendations",
@@ -35,7 +54,7 @@ export function Profile({ page }) {
                         redirectURL: "/projects",
                         type: ""
                     },
-{
+                    {
                         image: "https://via.placeholder.com/150",
                         title: "Certificates",
                         redirectURL: "/certificates",
