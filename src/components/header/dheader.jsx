@@ -1,14 +1,12 @@
 import "./dheader.styles.css";
 import { useNavigate } from "react-router-dom";
 
-export const DHeader = () => {
-
-
+export const DHeader = ({ name }) => {
   const navigate = useNavigate();
 
   return (
     <header className="header">
-      <h1 className="header-title">My Portfolio</h1>
+      <h1 className="header-title" onClick={() => navigate("/")}>{name}</h1>
       <nav className="nav">
         <ul className="nav-list">
           <li><button onClick={() => navigate("/browse")}>Home</button></li>
