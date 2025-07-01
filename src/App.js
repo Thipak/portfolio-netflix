@@ -6,7 +6,7 @@ import { Stalker } from './views/Stalker';
 import { Recruiter } from './views/Recruiter';
 import { Experience } from './views/Experience';
 import { Projects } from './views/Projects';
-import { Skills } from './views/Skills';
+import { Skills } from './views/skills/Skills';
 import { Contact } from './views/Contact';
 import { Blogs } from './views/extras/Blogs';
 import { Certificates } from './views/extras/Certificates';
