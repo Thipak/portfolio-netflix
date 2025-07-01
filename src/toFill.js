@@ -88,6 +88,26 @@ export const toFill =
                     }
                 ]
             }
-        ]
+        ],
+        "experience": [
+            {
+                "company": "Tech Solutions Inc.",
+                "position": "Full Stack Developer",
+                "duration": "Jan 2020 - Present",
+                "description": "Developing and maintaining web applications using React and Node.js."
+            },
+            {
+                "company": "Web Innovations Ltd.",
+                "position": "Frontend Developer",
+                "duration": "Jun 2018 - Dec 2019",
+                "description": "Creating responsive web designs and implementing user interfaces using Vue.js."
+            },
+            {
+                "company": "Code Factory",
+                "position": "Intern",
+                "duration": "Jan 2018 - May 2018",
+                "description": "Assisting in the development of web applications and gaining hands-on experience."
+            }
+        ],
     }
 };

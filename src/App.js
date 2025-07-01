@@ -4,7 +4,7 @@ import { Developer } from './views/Developer';
 import { Adventurer } from './views/Adventurer';
 import { Stalker } from './views/Stalker';
 import { Recruiter } from './views/Recruiter';
-import { Experience } from './views/Experience';
+import { Experience } from './views/experience/Experience';
 import { Projects } from './views/Projects';
 import { Skills } from './views/skills/Skills';
 import { Contact } from './views/Contact';
