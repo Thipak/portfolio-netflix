@@ -12,7 +12,7 @@ import { Blogs } from './views/extras/Blogs';
 import { Certificates } from './views/extras/Certificates';
 import { Music } from './views/extras/Music';
 import { Recommendations } from './views/extras/Recommendations';
-import { Home } from './views/Home';
+import { Home } from './views/home/Home';
 
 import './App.css';
 

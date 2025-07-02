@@ -1,0 +1,28 @@
+@import "../../App.css";
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+    overflow: hidden;
+}
+
+.name {
+    font-size: 4rem;
+    font-family: "Netflix Sans", sans-serif;
+    color: #D81F26;
+    white-space: nowrap;
+    transition: font-size 4s, opacity 4s;
+    -webkit-transition: font-size 4s cubic-bezier(0.7, 0, 0.84, 0), opacity 4s ;
+    -moz-transition: font-size 4s cubic-bezier(0.7, 0, 0.84, 0), opacity 4s;
+    -o-transition: font-size 4s cubic-bezier(0.7, 0, 0.84, 0), opacity 4s;
+    -ms-transition: font-size 4s cubic-bezier(0.7, 0, 0.84, 0), opacity 4s;
+
+
+    &.clicked {
+        font-size: 40rem;
+        opacity: 0;
+    }
+}
