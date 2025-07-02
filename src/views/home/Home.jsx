@@ -21,7 +21,6 @@ export function Home() {
     return (
         <div className="home" onClick={handleClick}>
             <p className="name">{name}</p>
-            
         </div>
     );
 }

@@ -1,0 +1,47 @@
+.browse {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+
+.buttonList {
+    display: flex;
+    flex-wrap: wrap;;
+    gap: 1rem;
+    padding-bottom: 60px;
+    align-items: center;
+    justify-content: center;
+}
+
+/* BrowseButton styles */
+
+.browse-button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    transition-duration: 0.5s;
+
+    &:hover {
+        transform: scale(1.05);
+        cursor: pointer;
+        
+        .browse-button-image {
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+    }
+}
+
+.browse-button-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 7px;
+}
+
+.browse-button-label {
+    font-size: 1rem;
+}

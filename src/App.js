@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import { Browse } from './views/Browse';
+import { Browse } from './views/browse/Browse';
 import { Developer } from './views/Developer';
 import { Adventurer } from './views/Adventurer';
 import { Stalker } from './views/Stalker';
