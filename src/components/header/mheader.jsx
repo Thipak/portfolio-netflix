@@ -15,6 +15,7 @@ export const MHeader = ({ name }) => {
     <header className="header">
       <h1 className="header-title" onClick={() => navigate("/")}>{name}</h1>
       <nav className={`nav ${navOpen ? "open" : ""}`}>
+        <h1 className="nav-title" onClick={() => navigate("/")}>{name}</h1>
         <ul className="nav-list">
           <li><button onClick={() => navigate("/browse")}>Home</button></li>
           <li><button onClick={() => navigate("/work-experience")}>Experience</button></li>
