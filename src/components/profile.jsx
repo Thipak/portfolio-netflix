@@ -1,4 +1,4 @@
-import { ItemList } from "./itemlist";
+import { ItemList } from "./itemlist/itemlist";
 import { toFill } from "../toFill";
 
 export function Profile({ page }) {
@@ -31,37 +31,37 @@ export function Profile({ page }) {
                 type={page}
                 items={[
                     {
-                        image: "https://via.placeholder.com/150",
+                        image: "https://picsum.photos/100/100",
                         title: "Skills",
                         redirectURL: "/skills",
                         type: ""
                     },
                     {
-                        image: "https://via.placeholder.com/150",
+                        image: "https://picsum.photos/100/100",
                         title: "Experience",
                         redirectURL: "/work-experience",
                         type: ""
                     },
                    {
-                        image: "https://via.placeholder.com/150",
+                        image: "https://picsum.photos/100/100",
                         title: "Recommendations",
                         redirectURL: "/recommendations",
                         type: "Developer"
                     },
                     {
-                        image: "https://via.placeholder.com/150",
+                        image: "https://picsum.photos/100/100",
                         title: "Projects",
                         redirectURL: "/projects",
                         type: ""
                     },
                     {
-                        image: "https://via.placeholder.com/150",
+                        image: "https://picsum.photos/100/100",
                         title: "Certificates",
                         redirectURL: "/certificates",
                         type: ""
                     },
                     {
-                        image: "https://via.placeholder.com/150",
+                        image: "https://picsum.photos/100/100",
                         title: "Contact Me",
                         redirectURL: "/contact",
                         type: ""
@@ -74,19 +74,19 @@ export function Profile({ page }) {
                 type={page}
                 items={[
                     {
-                        image: "https://via.placeholder.com/150",
+                        image: "https://picsum.photos/100/100",
                         title: "Music",
                         redirectURL: "/music",
                         type: "stalker"
                     },
                     {
-                        image: "https://via.placeholder.com/150",
+                        image: "https://picsum.photos/100/100",
                         title: "Blogs",
                         redirectURL: "/blogs",
                         type: ""
                     },
                     {
-                        image: "https://via.placeholder.com/150",
+                        image: "https://picsum.photos/100/100",
                         title: "Contact Me",
                         redirectURL: "/contact",
                         type: ""

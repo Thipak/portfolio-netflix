@@ -3,13 +3,13 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    height: 100vh;
-    width: 100vw;
+    height: 100%;
+    width: 100%;
 }
 
 .buttonList {
     display: flex;
-    flex-wrap: wrap;;
+    flex-wrap: wrap;
     gap: 1rem;
     padding-bottom: 60px;
     align-items: center;
