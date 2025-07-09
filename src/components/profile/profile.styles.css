@@ -1,0 +1,32 @@
+.profile {
+    width: 90vw;
+    margin: auto;
+}
+
+.profile-button-group {
+    display: flex;
+    height: 45px;
+    gap: 10px;
+}
+
+.profile-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 10px;
+    gap: 1rem;
+    border-radius: 5px;
+}
+
+.resume-button {
+    background-color: aliceblue;
+
+    p {
+        color: black;
+    }
+}
+
+.linkedin-button {
+    background-color: rgba(183, 183, 183, 0.1);
+}
