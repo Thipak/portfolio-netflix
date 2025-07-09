@@ -1,0 +1,33 @@
+.list-container {
+    box-sizing: border-box;
+    position: relative;
+    height: 240px;
+    width: 90vw;
+    margin: auto;
+}
+
+.item-list {
+    display: flex;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-y: auto;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-color: transparent;
+    list-style: none;
+    gap: 20px;
+}
+
+.list-item {
+    position: relative;
+    margin: 10px;
+    transition-duration: 0.2s;
+
+    &:hover {
+        cursor: pointer;
+        transform: scale(1.05);
+    }
+}

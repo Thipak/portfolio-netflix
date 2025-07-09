@@ -11,7 +11,7 @@ export function ItemList({ heading, type, items }) {
             <ul className="item-list">
                 {items.filter(item => item.type.toLowerCase() !== type.toLowerCase())
                     .map((item, index) => (
-                    <li key={index}>
+                    <li className="list-item" key={index}>
                         <Item
                             image={item.image}
                             title={item.title}

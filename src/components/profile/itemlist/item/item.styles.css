@@ -19,6 +19,7 @@
     width: max-content;
     text-align: center;
     pointer-events: none;
+    z-index: 2;
 }
 .item-background {
     z-index: -1;

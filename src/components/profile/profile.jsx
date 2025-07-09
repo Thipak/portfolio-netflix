@@ -1,5 +1,7 @@
 import { ItemList } from "./itemlist/itemlist";
-import { toFill } from "../toFill";
+import { toFill } from "../../toFill";
+
+import "./profile.styles.css";
 
 export function Profile({ page }) {
 
